@@ -14,7 +14,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/Snipa22/go-tari-observability/internal/registry"
+	"github.com/Jagtech-Services/go-tari-observability/internal/registry"
 )
 
 func main() {

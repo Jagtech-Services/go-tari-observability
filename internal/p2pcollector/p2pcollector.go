@@ -1,5 +1,5 @@
 // Package p2pcollector probes the P2P layer (Noise_XX handshake + identity exchange) of
-// registry nodes via github.com/Snipa22/go-tari-lib's p2p package, and reports per-node
+// registry nodes via github.com/Jagtech-Services/go-tari-lib/v3's p2p package, and reports per-node
 // observability data.
 //
 // This is deliberately separate from internal/collector (the existing gRPC-based
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Snipa22/go-tari-lib/p2p"
-	"github.com/Snipa22/go-tari-observability/internal/registry"
+	"github.com/Jagtech-Services/go-tari-lib/v3/p2p"
+	"github.com/Jagtech-Services/go-tari-observability/internal/registry"
 )
 
 // DefaultTimeout bounds a single node's P2P probe (dial + Noise_XX handshake + identity

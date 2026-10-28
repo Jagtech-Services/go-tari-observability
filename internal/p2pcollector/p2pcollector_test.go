@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Snipa22/go-tari-lib/p2p"
-	"github.com/Snipa22/go-tari-observability/internal/registry"
+	"github.com/Jagtech-Services/go-tari-lib/v3/p2p"
+	"github.com/Jagtech-Services/go-tari-observability/internal/registry"
 )
 
 // TestPoll_ProbeError verifies that a probe failure (e.g. a dial timeout or handshake

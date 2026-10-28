@@ -1,12 +1,12 @@
-module github.com/Snipa22/go-tari-observability
+module github.com/Jagtech-Services/go-tari-observability
 
 go 1.24.0
 
 toolchain go1.24.13
 
 require (
-	github.com/Snipa22/go-tari-grpc-lib/v3 v3.2.0
-	github.com/Snipa22/go-tari-lib v1.0.1-0.20260817175312-d4f757768e93
+	github.com/Jagtech-Services/go-tari-grpc-lib/v3 v3.5.0
+	github.com/Jagtech-Services/go-tari-lib/v3 v3.1.0
 	github.com/jackc/pgx/v5 v5.7.5
 	github.com/prometheus/client_golang v1.20.5
 	github.com/prometheus/client_model v0.6.1
@@ -21,6 +21,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/flynn/noise v1.1.0 // indirect
 	github.com/gtank/ristretto255 v0.2.0 // indirect
+	github.com/hashicorp/yamux v0.1.2 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
 	github.com/jackc/puddle/v2 v2.2.2 // indirect
