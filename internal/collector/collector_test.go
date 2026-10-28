@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Snipa22/go-tari-observability/internal/registry"
+	"github.com/Jagtech-Services/go-tari-observability/internal/registry"
 )
 
 // TestPoll_UnreachableNode verifies that polling a node with nothing listening reports

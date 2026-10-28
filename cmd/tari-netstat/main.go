@@ -14,8 +14,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Snipa22/go-tari-observability/internal/collector"
-	"github.com/Snipa22/go-tari-observability/internal/registry"
+	"github.com/Jagtech-Services/go-tari-observability/internal/collector"
+	"github.com/Jagtech-Services/go-tari-observability/internal/registry"
 )
 
 func main() {

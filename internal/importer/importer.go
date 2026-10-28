@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Snipa22/go-tari-observability/internal/registry"
+	"github.com/Jagtech-Services/go-tari-observability/internal/registry"
 )
 
 // Source records the value written to nodes.source for every node this importer

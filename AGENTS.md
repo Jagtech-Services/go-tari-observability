@@ -9,7 +9,7 @@ Instructions for AI coding agents (OpenCode, Claude Code, or any `agents.md`-com
 ## Project
 
 - **What this repo is:** Prometheus exporter + CLI for polling Tari base-node gRPC endpoints (sync height/state, peer count, version, uptime, mempool size, per-algo difficulty) across a configured registry of seed and priority nodes, for network-health observability and alerting (critical use case: detecting when Alex's priority nodes are down, which can halt the network for ~30 minutes).
-- **Module path:** `github.com/Snipa22/go-tari-observability`
+- **Module path:** `github.com/Jagtech-Services/go-tari-observability`
 - **Depends on:** `go-tari-grpc-lib` (GRPC wrapper / generated Tari protobuf types)
 
 ## Commands
